@@ -11,7 +11,7 @@
 
 - 🔭 I'm currently working on **AI and Machine Learning projects**
 - 🌱 I'm exploring **Deep Learning, NLP, and Full-Stack Development**
-- 👨‍💻 All of my projects are available at [github.com/JayeshCC](https://github.com/JayeshCC? tab=repositories)
+- 👨‍💻 All of my projects are available at [github.com/JayeshCC](https://github.com/JayeshCC?tab=repositories)
 - 💬 Ask me about **Python, AI/ML, TensorFlow, and Web Development**
 
 ---
