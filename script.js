@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
     // ========================================
     // Typing Effect
     // ========================================
@@ -40,7 +42,13 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(type, delay);
     }
 
-    type();
+    if (typingEl) {
+        if (prefersReducedMotion) {
+            typingEl.textContent = phrases[0];
+        } else {
+            type();
+        }
+    }
 
     // ========================================
     // Mobile Menu
@@ -108,6 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    updateActiveNav();
     window.addEventListener('scroll', updateActiveNav, { passive: true });
 
     // ========================================
@@ -117,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.skill-category, .project-card, .education-item, .credential-item, .timeline-item, .about-grid, .contact-grid'
     );
 
-    if ('IntersectionObserver' in window) {
+    if (!prefersReducedMotion && 'IntersectionObserver' in window) {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -133,6 +142,10 @@ document.addEventListener('DOMContentLoaded', () => {
         revealElements.forEach(el => {
             el.classList.add('reveal');
             observer.observe(el);
+        });
+    } else {
+        revealElements.forEach(el => {
+            el.classList.add('visible');
         });
     }
 
