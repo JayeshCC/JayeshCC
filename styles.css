@@ -659,8 +659,7 @@ section {
     }
 
     .about-stats {
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
     }
 
     section {

@@ -14,7 +14,6 @@ yarn.lock
 *.swp
 *.swo
 *~
-.DS_Store
 
 # Build outputs
 dist/
