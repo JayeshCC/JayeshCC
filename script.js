@@ -28,15 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
             charIndex++;
         }
 
-        let delay = isDeleting ? 40 : 80;
+        let delay = isDeleting ? 34 : 70;
 
         if (!isDeleting && charIndex === currentPhrase.length) {
-            delay = 2000;
+            delay = 1700;
             isDeleting = true;
         } else if (isDeleting && charIndex === 0) {
             isDeleting = false;
             phraseIndex = (phraseIndex + 1) % phrases.length;
-            delay = 400;
+            delay = 320;
         }
 
         setTimeout(type, delay);
@@ -135,12 +135,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         }, {
-            threshold: 0.1,
-            rootMargin: '-40px'
+            threshold: 0.16,
+            rootMargin: '-18px'
         });
 
-        revealElements.forEach(el => {
+        revealElements.forEach((el, index) => {
             el.classList.add('reveal');
+            el.style.transitionDelay = `${Math.min(index * 35, 220)}ms`;
             observer.observe(el);
         });
     } else {
