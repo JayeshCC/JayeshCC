@@ -4,6 +4,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-58a6ff?style=for-the-badge)](https://jayeshcc.github.io/JayeshCC/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/JayeshCC)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayesh-chaudhari1210/)
 
 ---
 
