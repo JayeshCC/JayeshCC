@@ -10,7 +10,7 @@ import {
   skillGroups,
 } from './data';
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xaqkznoq';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mgoqbvrl';
 
 const views = [
   ['home', 'Home'],
