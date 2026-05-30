@@ -14,40 +14,33 @@ I build web applications, AI tools, and practical technology solutions. Explore 
 
 ## 🚀 Featured Projects
 
-### [AIWork](https://github.com/JayeshCC/Aiwork)
-Lightweight, production-ready Python framework for building intelligent agentic workflows. Built for Intel AI Innovation Challenge 2025-26 with hybrid orchestration, memory, and guardrails.
+### [Aiwork](https://github.com/JayeshCC/Aiwork)
+A lightweight Python framework for intelligent agentic workflows with hybrid DAG orchestration, tool integration, memory handling, and guardrails. Built during the Intel Unnati Program.
 
-- **Tech:** Python, FastAPI, OpenVINO, Kafka, Airflow
-- **Features:** Hybrid DAG orchestration, Vector memory, REST API
-- **⭐ 1 star**
+- **Tech:** Python, Flask, Kafka, Redis, OpenVINO
+- **Features:** Hybrid DAG orchestration, Tool integration, Memory handling, Guardrails
 
 ### [SATHI](https://github.com/JayeshCC/SATHI)
-Advanced AI-powered mental health monitoring system for CRPF. Combines ML, NLP, and computer vision for comprehensive mental health assessment.
+A mental health assessment system designed for CRPF, combining sentiment analysis and facial emotion detection for risk assessment.
 
-- **Tech:** TypeScript, AI/ML, Computer Vision
-- **Features:** Multi-modal analysis, Real-time monitoring, Predictive analytics
-
-### [Sentimeter](https://github.com/JayeshCC/sentimeter)
-Smart sentiment analysis tool for real-time emotional tone detection with multi-language support and batch processing capabilities.
-
-- **Tech:** NLP, REST API
-- **Features:** Real-time analysis, Multi-language support, Batch processing
+- **Tech:** Python, Flask, React, TypeScript, TensorFlow, OpenCV
+- **Features:** Sentiment analysis, Facial emotion detection, Risk assessment
 
 ### [Smart File Manager](https://github.com/JayeshCC/Smart-File-Manager)
-Intelligent file organization tool with AI-powered categorization and duplicate detection.
+A Python desktop utility with color-coded tagging, duplicate detection, and multi-threaded operations for everyday file management.
 
-- **Tech:** Python, Automation
-- **Features:** Auto-categorization, Custom rules, Duplicate detection
+- **Tech:** Python, Tkinter, Multi-threading
+- **Features:** Color-coded tagging, Duplicate detection, Multi-threaded operations
 
 ## 🛠️ Tech Stack
 
-**AI/ML:** Python, TensorFlow, PyTorch, NLP, Computer Vision, OpenVINO, Scikit-learn
+**Languages:** Python, C, C++, Java, JavaScript, SQL
 
-**Backend:** Python, FastAPI, Flask, Node.js, REST APIs, GraphQL
+**AI & Systems:** Agent Framework Design, DAG Workflows, Automation, System Architecture
 
-**Frontend:** TypeScript, JavaScript, React, HTML5, CSS3
+**Cybersecurity:** Incident Response, Digital Forensics, Threat Hunting, Nmap, Wireshark, Autopsy
 
-**Tools:** Git, Docker, Kafka, Airflow, Redis, MySQL
+**Web & Tools:** HTML / CSS / JS, Flask, React, Git, Linux, Docker
 
 ## 📊 GitHub Stats
 
