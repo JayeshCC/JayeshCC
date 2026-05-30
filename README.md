@@ -1,6 +1,6 @@
 # Jayesh Chaudhari
 
-**AI/ML Engineer & Full-Stack Developer**
+**Full-Stack Developer & AI Builder**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-58a6ff?style=for-the-badge)](https://jayeshcc.github.io/JayeshCC/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/JayeshCC)
@@ -9,7 +9,7 @@
 
 ## 👋 Welcome
 
-This is my GitHub profile repository. Check out my [**portfolio website**](https://jayeshcc.github.io/JayeshCC/) for a comprehensive view of my work, skills, and projects.
+I build web applications, AI tools, and practical technology solutions. Explore my [**portfolio website**](https://jayeshcc.github.io/JayeshCC/) for my projects, experience, services, and contact details.
 
 ## 🚀 Featured Projects
 
@@ -67,5 +67,5 @@ Intelligent file organization tool with AI-powered categorization and duplicate 
 </p>
 
 <p align="center">
-  <sub>Building intelligent systems and production-ready AI frameworks</sub>
+  <sub>Building practical software, AI tools, and reliable web experiences</sub>
 </p>
