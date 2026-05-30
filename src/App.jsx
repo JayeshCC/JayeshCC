@@ -409,16 +409,17 @@ function ContactView() {
 
   async function submitForm(event) {
     event.preventDefault();
+    const form = event.currentTarget;
     setSending(true);
     setStatus('');
     try {
       const response = await fetch(FORMSPREE_ENDPOINT, {
         method: 'POST',
-        body: new FormData(event.currentTarget),
+        body: new FormData(form),
         headers: { Accept: 'application/json' },
       });
       if (!response.ok) throw new Error('Submission failed');
-      event.currentTarget.reset();
+      form.reset();
       setStatus('Message sent. I will reply as soon as possible.');
     } catch {
       setStatus('Something went wrong. Please email me directly at jayeshcc1210@gmail.com.');
