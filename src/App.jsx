@@ -10,7 +10,7 @@ import {
   skillGroups,
 } from './data';
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mykvazkj';
 
 const views = [
   ['home', 'Home'],
@@ -409,11 +409,6 @@ function ContactView() {
 
   async function submitForm(event) {
     event.preventDefault();
-    if (FORMSPREE_ENDPOINT.includes('YOUR_FORM_ID')) {
-      setStatus('The form is being configured. Please email me directly at jayeshcc1210@gmail.com.');
-      return;
-    }
-
     setSending(true);
     setStatus('');
     try {
