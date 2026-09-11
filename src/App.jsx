@@ -422,7 +422,7 @@ function ContactView() {
       form.reset();
       setStatus('Message sent. I will reply as soon as possible.');
     } catch {
-      setStatus('Something went wrong. Please email me directly at jayeshcc1210@gmail.com.');
+      setStatus('Something went wrong. Please email me directly at jayeshchaudhari1210@gmail.com.');
     } finally {
       setSending(false);
     }
@@ -449,7 +449,7 @@ function ContactView() {
           <div className="contact-pulse"><i /><span>REPLY MODE: ACTIVE</span></div>
           <h2>Direct channels</h2>
           <p>Email is the best starting point for a short brief. You can also connect through LinkedIn or GitHub.</p>
-          <a href="mailto:jayeshcc1210@gmail.com"><MailIcon /><span><small>EMAIL</small>jayeshcc1210@gmail.com</span></a>
+          <a href="mailto:jayeshchaudhari1210@gmail.com"><MailIcon /><span><small>EMAIL</small>jayeshchaudhari1210@gmail.com</span></a>
           <a href="tel:+919404771210"><b>#</b><span><small>PHONE</small>+91 9404771210</span></a>
           <a href="https://www.linkedin.com/in/jayesh-chaudhari1210/" target="_blank" rel="noopener noreferrer"><LinkedinIcon /><span><small>LINKEDIN</small>jayesh-chaudhari1210</span></a>
           <a href="https://github.com/JayeshCC" target="_blank" rel="noopener noreferrer"><GithubIcon /><span><small>GITHUB</small>JayeshCC</span></a>
@@ -467,7 +467,7 @@ function Footer() {
         <span>© 2026 Jayesh Chaudhari</span>
         <span>DESIGNED AS A SINGLE-PAGE WORKSPACE</span>
         <div>
-          <a href="mailto:jayeshcc1210@gmail.com" aria-label="Email"><MailIcon /></a>
+          <a href="mailto:jayeshchaudhari1210@gmail.com" aria-label="Email"><MailIcon /></a>
           <a href="https://www.linkedin.com/in/jayesh-chaudhari1210/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><LinkedinIcon /></a>
           <a href="https://github.com/JayeshCC" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><GithubIcon /></a>
         </div>
