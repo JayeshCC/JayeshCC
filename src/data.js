@@ -1,4 +1,4 @@
-export const resumeUrl = new URL('../Jayesh_Resume_Final-1.pdf', import.meta.url).href;
+export const resumeUrl = 'https://drive.google.com/file/d/1ThGIr0xpbBz1rMcmM7Bd3WdZi626aH3j/view?usp=drivesdk';
 
 export const services = [
   {
