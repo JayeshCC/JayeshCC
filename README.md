@@ -10,7 +10,12 @@
 
 ## 👋 Welcome
 
-I build web applications, AI tools, and practical technology solutions. Explore my [**portfolio website**](https://jayeshcc.github.io/JayeshCC/) for my projects, experience, services, and contact details.
+I build web applications, AI tools, and practical technology solutions. Explore my [**portfolio website**](https://jayeshcc.github.io/JayeshCC/) for my projects, experience, services, and contact information.
+
+## 📧 Contact
+
+- **Email:** jayeshchaudhari1210@gmail.com
+- **Resume:** [View Resume](https://drive.google.com/file/d/1ThGIr0xpbBz1rMcmM7Bd3WdZi626aH3j/view?usp=drivesdk)
 
 ## 🚀 Featured Projects
 
@@ -45,11 +50,11 @@ A Python desktop utility with color-coded tagging, duplicate detection, and mult
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JayeshCC&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=JayeshCC&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JayeshCC&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JayeshCC&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages">
 </p>
 
 ---
