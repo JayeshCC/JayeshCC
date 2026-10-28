@@ -68,3 +68,5 @@ A Python desktop utility with color-coded tagging, duplicate detection, and mult
 <p align="center">
   <sub>Building practical software, AI tools, and reliable web experiences</sub>
 </p>
+
+<sub>* Professional projects and updates: <a href="https://github.com/jayeshchaudhari1210">jayeshchaudhari1210</a>.</sub>
