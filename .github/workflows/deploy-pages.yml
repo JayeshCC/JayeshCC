@@ -32,6 +32,10 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Publish move notice and preserve resume downloads
+        run: |
+          cp legacy-notice/index.html dist/index.html
+          cp ./*.pdf dist/
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
