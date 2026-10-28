@@ -141,6 +141,10 @@ function WorkspaceBar({ activeView }) {
 function ViewFrame({ activeView, children }) {
   return (
     <main className="workspace" key={activeView}>
+      <aside className="portfolio-announcement shell" aria-label="Portfolio update">
+        <span>This is my earlier portfolio. Current projects and professional updates are on my new site.</span>
+        <a href="https://jayeshchaudhari1210.github.io/portfolio/">Visit the new portfolio <Arrow external /></a>
+      </aside>
       {children}
     </main>
   );
